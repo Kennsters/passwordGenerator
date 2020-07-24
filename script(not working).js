@@ -54,7 +54,7 @@ function writePassword() {
       }
     } else if (choice === 3) {
       if (pwSpecial === true) {
-        let change = characters.special[Math.floor(Math.random() * characters.lowerCase.length)]
+        let change = characters.special[Math.floor(Math.random() * characters.special.length)]
         pw = pw + change
       } else {
         i--
